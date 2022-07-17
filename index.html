@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>正义联盟</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-ui.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script>
+</script>
+</head>
+<body>
+<nav class="navbar nav-pills navbar-toggleable-sm sticky-top" style="background-color:whitesmoke;">
+	<button class="navbar-toggler  bg-primary navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myMenu">
+	<span>更多</span>
+  </button>
+	<a class="nabar-brand mr-2" href="#"><img src="images/beijng.jif.gif" style="width:80px;height:80px;margin:0px;"></a>
+	<div class="collapse navbar-collapse" id="myMenu">
+		<div class="navbar-nav mr-auto">         <!-- mr- -->
+
+			 <a class="nav-item nav-link mr-1 active" href="index.html">正义联盟</a>
+			<a class="nav-item nav-link mr-1" href="movie.html">电影</a>	
+			<a class="nav-item nav-link mr-1" href="TV.html">电视</a>
+			<div class="dropdown">
+			<a id="cy" class="nav-item nav-link mr-1 dropdown-toggle" data-toggle="dropdown" href="#">成员</a>
+				<div class="dropdown-menu" id="dropdown">			
+					<a class="dropdown-item" href="batman.html">蝙蝠侠</a>
+					<a class="dropdown-item" href="wonderwoman.html">神奇女侠</a>
+					<a class="dropdown-item" href="#">超人</a>
+					<a class="dropdown-item" href="#">闪电侠</a>
+					<a class="dropdown-item" href="#">海王</a>
+					<a class="dropdown-item" href="#">钢骨</a>
+				</div>
+			</div>	
+			<a class="nav-item nav-link mr-1" href="zhuce.html">更多</a>
+		</div>
+
+		<form class="form-inline">
+		<a href="zhuce.html" class="btn btn-info mr-3" style="background-color:#0275D8">登录</a>
+		<a href="zhuce.html" class="btn btn-info mr-3" style="background-color:#0275D8">注册</a>
+		<input class="form-control mr-3" placeholder="请输入">
+		<button class="btn btn-info" style="background-color:#0275D8">搜索</button>
+		</form>
+	</div>
+</nav>
+
+<video autoplay controls loop style="width: 100%;height: 100%">				<!---->
+  <source src="video/正义联盟 正义联盟 中文剧场版预告 - Mtime时光网 1.mp4" type="video/mp4">
+  <source src="video/正义联盟 正义联盟 中文剧场版预告 - Mtime时光网 1.mp4" type="video/ogg">
+</video>
+
+<div class="container"  style="margin-top: -110px;">
+  <div id="banner" class="carousel slide" data-ride="carousel" data-interval="500">	
+	<ol class="carousel-indicators">
+	<li data-target="#banner" data-slide-to="0" class="active"></li>
+	<li data-target="#banner" data-slide-to="1"></li>
+	<li data-target="#banner" data-slide-to="2"></li>
+	<li data-target="#banner" data-slide-to="3"></li>
+	<li data-target="#banner" data-slide-to="4"></li>
+	<li data-target="#banner" data-slide-to="5"></li>
+</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="d-block img-fluid" src="images/094836.95339576_1000X1000.jpg" alt="正义联盟">
+		<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">Justice League</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/img01.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">正义联盟</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/shenqi.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">神奇女侠</a></h3>
+		</div>
+		</div>
+
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/144426.42411151_1000X1000.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">超人大战蝙蝠侠</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/092123.18526530_1000X1000.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">自杀小队</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/shaonian.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">少年泰坦</a></h3>
+		</div>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#banner" data-slide="prev">
+		<span class="picleft"></span>
+	</a>
+	<a class="carousel-control-next" href="#banner" data-slide="next">
+		<span class="picright"></span>
+	</a>
+</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row title">
+    <h3 class="col-sm-8" href="#">新闻事件</h3>
+    <a class="col-sm-4 text-right" href="#">浏览更多&gt;</a>
+	</div>
+	
+	<div class="row text-center" id="news">
+		<div class="col-sm-10">
+		<div class="row">
+		<article class="col-sm-6 col-md-4">
+			<a href="#">
+			<img class="img-fluid" src="images/298x250_wonderwoman75_20170209_5935da2bb1a408.54428401.jpg">
+			<h3>神奇女侠75年纪念日</h3>
+			</a>
+		</article>
+		
+		<article class="col-sm-6 col-md-8">
+			<a href="#">
+			<img class="img-fluid" src="images/616x250_WonderWomanMovie2017_nowPlaying_59360a002f2095.44434818.jpg">
+			<h3>神奇女侠电影正在热映</h3>
+			</a>
+		</article>
+		</div><!--row1-->
+			
+		<div class="row title">
+			<h3 class="col-sm-8 text-left" href="#">新更漫画</h3>
+			<a class="col-sm-4" href="#">浏览更多&gt;</a>	
+		</div>
+		
+			<div class="row">
+				<article class="col-sm-6 col-md-8">
+				<a href="#">
+				<img src="images/616x250_Rebirth_589d010982ea68.92071500_58bdeb223162b4.02516399.jpg">
+				<h3>DC 重生</h3>
+				
+				</a>
+				</article>
+		
+			 <article class="col-sm-6 col-md-4">
+				<a href="#">
+				<img       src="images/298x250_YoungAnimal[10]_5890ca1c51b7a5.46341697_58910fbc347040.43597230_58bdeb3e9c5186.80661070.jpg">
+				<h3>DC Young Animal</h3>
+			
+				</a>
+			  </article>
+				
+			</div><!--row2-->
+		</div><!--col1-->
+		
+		<div class="col-sm-2" id="wonderwoman" >
+			<img src="images/wonderwoman_361Wx675H_5891047fd4ced7.png" style="display: none;">
+		</div><!--col2-->
+	</div><!--row-->
+	
+	<div class="row title">
+		<h3 class="col-sm-8">主要人物</h3>
+	</div>
+	
+	<div class="row text-center card-deck" id="renwu">
+	<article class="card mb-5 ml-2 mr-auto card-outline-info">
+			<img class="img-fluid" src="images/ww_superman_588c0b2b7e4894.14006222_589110299aa510.60892721.jpg">
+				<div class="card-block">
+				<h3 class="card-title">SUPERMAN</h3>
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action list-group-item-success active" href="#">个人主页</a>
+				<a class="list-group-item list-group-item-action list-group-item-info">logo</a>
+				<a class="list-group-item list-group-item-action list-group-item-danger">个人名言</a>
+			</div>
+	  </article>
+		
+		
+		
+		<article class="card mb-5 mr-auto card-outline-info">
+			<img src="images/ww_batman_588c0b6b7e2e88.03395664_589110907cb905.89801067.jpg">
+				<div class="card-block">
+				<h3 class="card-title">BATMAN</h3>
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action list-group-item-success active" href="batman.html">个人主页</a>
+				<a class="list-group-item list-group-item-action list-group-item-info" href="#">logo</a>
+				<a class="list-group-item list-group-item-action list-group-item-danger" href="#">个人名言</a>
+			</div>
+		</article>
+		
+	
+			
+			
+		<article class="card mb-5 mr-auto card-outline-info">
+			<img src="images/ww_wonderwoman_588c0ed37bfc73.21006806_589110f430e637.19481409.jpg">
+				<div class="card-block">
+				<h3 class="card-title">WONDER WOMAN</h3>
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action list-group-item-success active" href="wonderwoman.html">个人主页</a>
+				<a class="list-group-item list-group-item-action list-group-item-info" href="#">logo</a>
+				<a class="list-group-item list-group-item-action list-group-item-danger" href="#">个人名言</a>
+			</div>
+		</article>
+		
+		
+		<article class="card mb-5 mr-auto card-outline-info">
+			<img src="images/ww_flash_588c0c78096793.56539878_58911183a7a817.13114786.jpg">
+				<div class="card-block">
+				<h3 class="card-title">THE FLASH</h3>
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action list-group-item-success active" href="#">个人主页</a>
+				<a class="list-group-item list-group-item-action list-group-item-info" href="#">logo</a>
+				<a class="list-group-item list-group-item-action list-group-item-danger" href="#">个人名言</a>
+			</div>
+		</article>
+		
+	
+			
+	
+		<article class="card mb-5 mr-auto card-outline-info">
+			<img src="images/ww_aquaman_588c0ba8f18257.29894859_589111638cff75.10820220.jpg">
+				<div class="card-block">
+				<h3 class="card-title">AQUAMAN</h3>
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action list-group-item-success active" href="#">个人主页</a>
+				<a class="list-group-item list-group-item-action list-group-item-info" href="#">logo</a>
+				<a class="list-group-item list-group-item-action list-group-item-danger" href="#">个人名言</a>
+			</div>
+		</article>
+		
+			
+	  	<article class="card mb-5 mr-2 card-outline-info">
+			<img src="images/ww_cyborg_588c0bec1db114.91404563_589111406dd3c2.36803058.jpg">
+				<div class="card-block">
+				<h3 class="card-title">CYBORG</h3>
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action list-group-item-success active" href="#">个人主页</a>
+				<a class="list-group-item list-group-item-action list-group-item-info" href="#">logo</a>
+				<a class="list-group-item list-group-item-action list-group-item-danger" href="#">个人名言</a>
+			</div>
+		</article>
+	</div>
+		
+	<div class="row title">
+		<h3 class="col-sm-6">TV电视</h3>
+		<h3 class="col-sm-6">最新电影</h3>
+	</div>
+	
+	
+	<section class="row" id="zuixin">
+		<div class="col-sm-4">
+		
+		<div class="row">
+		 	<div id="tabs">
+				<ul>
+					<li><a href="#tabs-1">A</a></li>
+					<li><a href="#tabs-2">B</a></li>
+					<li><a href="#tabs-3">C</a></li>
+				</ul>
+					<div id="tabs-1">
+					<h3 class="text-success">超女</h3>
+					<img src="images/ThumbTV_192x291_Supergirl_s2_57e9a7fa06ba46.77330485.jpg">
+						<p>《超女》（Supergirl）的第一季由CBS、第二季由CW电视台基于DC漫画改编该剧讲述24岁的卡拉·丹弗斯一直隐藏着自己所拥有的超能力，但是她最终决定遵循命运的安排，展露她的能力，成为一名超级英雄</p>
+					</div>
+					<div id="tabs-2">
+						<h3 class="text-info">闪电侠</h3>
+						<img  src="images/ThumbTV_192x291_Flash_S3_57eec121245280.96548542.jpg">
+						<p>《闪电侠》（The Flash）是由美国DC娱乐和华纳兄弟电视公司合作出品的科幻电视连续剧。故事讲述了主角巴里·艾伦在一次粒子加速器爆炸的事故中被闪电击中后获得了极速移动的超能力，并在S.T.A.R.实验室的协助下，化身超级英雄闪电侠打击罪恶。</p>
+					</div>
+
+					
+					<div id="tabs-3">
+					<h3 class="text-danger">明日传奇</h3>
+					<img src="images/ThumbTV_192x291_LegendsOfTomorrow_S2_57f5953f09ae05.28461799.jpg">
+						<p>《明日传奇》（Legends of Tomorrow，是由美国CW电视台制作的科幻电视剧，该片是《绿箭侠》和《闪电侠》的衍生作品，改编自DC漫画旗下的多部漫画。</p>
+					</div>
+				</div>
+		 	</div> 
+		</div>
+		
+		<div class="col-sm-6">
+		 	<div id="accordion">
+	 		 <h3>超人大战蝙蝠侠</h3>
+	  			<div class="row">
+	  				<img class="col-sm-4" src="images/ThumbMovies_192x291_BatmanVSuperman_56d50c33b1efb4.21595592.jpg">
+	  				<div class="col-sm-8">
+					<p>《蝙蝠侠大战超人：正义黎明》是由美国华纳兄弟影业公司出品的科幻动作片，由扎克·施奈德执导，本·阿弗莱克、亨利·卡维尔、盖尔·加朵、杰西·艾森伯格领衔主演。<br>该片故事背景设定在《超人：钢铁之躯》结尾大战后，围绕着蝙蝠侠和超人之间激增的矛盾而展开，讲述了超人帮助人类解决了很多问题，成为了人类的神，却引起了莱克斯·卢瑟的嫉妒，从而挑拨蝙蝠侠与超人之间战斗的故事。</p>
+					</div>
+			 	</div>
+				  <h3>正义联盟</h3>
+				<div class="row">
+					<img class="col-sm-4" src="images/ThumbMovies_192x291_JusticeLeague_movie01_58d9a2f0300eb3.97166794.jpg">
+					<div class="col-sm-8">
+					<p>《正义联盟》是由扎克·施奈德执导，本·阿弗莱克，亨利·卡维尔，盖尔·加朵等主演的超级英雄电影。改编自DC漫画，是DC扩展宇宙的第五部影片。将于2017年11月17日在北美上映。故事发生在《蝙蝠侠大战超人：正义黎明》之后，面对一个全新的世界威胁，超人、蝙蝠侠、神奇女侠、闪电侠、海王以及钢骨等六位英雄聚首，与这股未知的威胁对抗。</p>
+					</div>
+				</div>
+				  <h3>神奇女侠</h3>
+				<div class="row">
+					<img class="col-sm-4" src="images/ww_591fa2db506419.29692085.jpg">
+					<div class="col-sm-8">
+					<p>《神奇女侠》是由美国华纳兄弟影片公司出品的奇幻动作片，由派蒂·杰金斯执导，盖尔·加朵、克里斯·派恩、康妮·尼尔森、罗宾·怀特联合主演。该片根据DC漫画改编，故事背景设定在第一次世界大战期间，讲述了亚马逊公主戴安娜·普林斯取得奥林匹斯众神赐予的武器与装备，化身神奇女侠，与空军上尉史蒂夫·特雷弗来到人类世界，捍卫和平、拯救世界的故事。该片于2017年6月2日在美国、中国内地同步上映。</p>
+					</div>
+				</div>
+				  <h3>少年泰坦</h3>
+				<div class="row">
+					<img class="col-sm-4" src="images/Movies-Thumb_TTJudasContract_58e5affc89e6d3.04399920.jpg">
+					<div class="col-sm-8">
+					<p>少年泰坦是第一个由少年超级英雄组成的队伍，最初由DC漫画旗下超级英雄的少年助手建立，它的历史几乎与正义联盟（Justice League）——同样久远，并出现过许多衍生组织。少年泰坦涉及到几代人，它的发展是坎坷的。因种种原因，团队曾多次解散、重组，成员也曾一度迷失，离开。但作为一支勇敢无畏的英雄团队，少年泰坦还是继续走在追求理想与正义的道路上。</p>
+					</div>
+	  			</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-2" id="batman">
+			<img src="images/batman_char-pop_58910497bad9c5.png" style="display: none">
+		</div>
+		
+	</section>
+	
+	<footer class="row text-center">
+		<br>
+		<p class="col">孙中太，&copy;版权所有 TEL:15563831078</p>
+	</footer>
+</div><!--container-->
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>正义联盟</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-ui.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script>
+</script>
+
+</head>
+<body>
+<nav class="navbar nav-pills navbar-toggleable-sm sticky-top" style="background-color:whitesmoke;">
+	<button class="navbar-toggler  bg-primary navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myMenu">
+	<span>更多</span>
+  </button>
+	<a class="nabar-brand mr-2" href="#"><img src="images/beijng.jif.gif" style="width:80px;height:80px;margin:0px;"></a>
+	<div class="collapse navbar-collapse" id="myMenu">
+		<div class="navbar-nav mr-auto">         <!-- mr- -->
+
+			<a class="nav-item nav-link mr-1" href="index.html">正义联盟</a>
+			<a class="nav-item nav-link mr-1" href="movie.html">电影</a>	
+			<a class="nav-item nav-link mr-1" href="TV.html">电视</a>
+			<div class="dropdown">
+			<a id="cy" class="nav-item nav-link mr-1 dropdown-toggle" data-toggle="dropdown" href="#">成员</a>
+				<div class="dropdown-menu" id="dropdown">			
+					<a class="dropdown-item" href="batman.html">蝙蝠侠</a>
+					<a class="dropdown-item" href="wonderwoman.html">神奇女侠</a>
+					<a class="dropdown-item" href="#">超人</a>
+					<a class="dropdown-item" href="#">闪电侠</a>
+					<a class="dropdown-item" href="#">海王</a>
+					<a class="dropdown-item" href="#">钢骨</a>
+				</div>
+			</div>	
+			<a class="nav-item nav-link mr-1  active" href="zhuce.html">更多</a>	
+		</div>
+
+		<form class="form-inline">
+		<a href="zhuce.html" class="btn btn-info mr-3" style="background-color:#0275D8">登录</a>
+		<a href="zhuce.html" class="btn btn-info mr-3" style="background-color:#0275D8">注册</a>
+		<input class="form-control mr-3" placeholder="请输入">
+		<button class="btn btn-info" style="background-color:#0275D8">搜索</button>
+		</form>
+	</div>
+</nav>
+
+<div class="container">
+  <div id="banner" class="carousel slide" data-ride="carousel" data-interval="1000">	
+	
+	<ol class="carousel-indicators">
+	<li data-target="#banner" data-slide-to="0" class="active"></li>
+	<li data-target="#banner" data-slide-to="1"></li>
+	<li data-target="#banner" data-slide-to="2"></li>
+	<li data-target="#banner" data-slide-to="3"></li>
+	<li data-target="#banner" data-slide-to="4"></li>
+	<li data-target="#banner" data-slide-to="5"></li>
+	
+
+</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="d-block img-fluid" src="images/094836.95339576_1000X1000.jpg" alt="正义联盟">
+		<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">Justice League</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/img01.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">正义联盟</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/shenqi.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">神奇女侠</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/144426.42411151_1000X1000.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">超人大战蝙蝠侠</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/092123.18526530_1000X1000.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">自杀小队</a></h3>
+		</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img class="d-block img-fluid" src="images/shaonian.jpg" alt="正义联盟">
+			<div class="carousel-caption d-none d-md-block d-lg-block">
+			<h3><a href="http://www.baidu.com">少年泰坦</a></h3>
+		</div>
+		</div>
+		
+
+		
+	</div>
+	
+	<a class="carousel-control-prev" href="#banner" data-slide="prev">
+		<span class="picleft"></span>
+	</a>
+	<a class="carousel-control-next" href="#banner" data-slide="next">
+		<span class="picright"></span>
+	</a>
+	
+</div>
+</div>
+
+<div class="text-center" id="zhucefrom" style="border-radius:10px;">
+  <from action="" method="post"  name="person" id="person">
+    <fieldset>
+      <legend><h2><b>注册DC</b></h2></legend>
+      
+      <p>	
+		<label for="name"><img  src="images/图标/登录.png"></label>
+        <input type="text" id="name" placeholder="请输入昵称:" required="required"/>
+      </p>
+      
+      <p>
+       <label for="tel"><img src="images/图标/手机号.png"></label>
+        <input type="tel" id="tel" placeholder="请输入手机号码:" required="required"/>
+      </p>
+      
+      <p>
+         <label for="pass"><img src="images/图标/密码.png"></label>
+        <input type="text" id="pass" name="pass" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')"  placeholder="请输入密码:" required="required"/>
+      </p>
+      
+      <p>
+      	 <label for="newpass"><img src="images/图标/验证密码.png" ></label>
+      	<input type="text" id="newpass" name="newpass" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')"  placeholder="请验证密码:" required="required"/>
+      </p>
+      
+      <p>
+		<label for="xuanzhe"><img src="images/图标/省份.png" ></label>
+        <select id="xuanzhe">
+       <option value="北京" selected>北京市</option>
+		  <option value="浙江省">浙江省</option>
+		  <option value="天津市">天津市</option>
+		  <option value="安徽省">安徽省</option>
+		  <option value="上海市">上海市</option>
+		  <option value="福建省">福建省</option>
+		  <option value="重庆市">重庆市</option>
+		  <option value="江西省">江西省</option>
+		  <option value="山东省">山东省</option>
+		  <option value="河南省">河南省</option>
+		  <option value="湖北省">湖北省</option>
+		  <option value="湖南省">湖南省</option>
+		  <option value="广东省">广东省</option>
+		  <option value="海南省">海南省</option>
+		  <option value="山西省">山西省</option>
+		  <option value="青海省">青海省</option>
+		  <option value="江苏省">江苏省</option>
+		  <option value="辽宁省">辽宁省</option>
+		  <option value="吉林省">吉林省</option>
+		  <option value="台湾省">台湾省</option>
+		  <option value="河北省">河北省</option>
+		  <option value="贵州省">贵州省</option>
+		  <option value="四川省">四川省</option>
+		  <option value="云南省">云南省</option>
+		  <option value="陕西省">陕西省</option>
+		  <option value="甘肃省">甘肃省</option>
+		  <option value="黑龙江省">黑龙江省</option>
+		  <option value="香港特别行政区">香港特别行政区</option>
+		  <option value="澳门特别行政区">澳门特别行政区</option>
+		  <option value="广西壮族自治区">广西壮族自治区</option>
+		  <option value="宁夏回族自治区">宁夏回族自治区</option>
+		  <option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+		  <option value="内蒙古自治区">内蒙古自治区</option>
+		  <option value="西藏自治区">西藏自治区</option>
+</select>
+      </p>
+      
+    </fieldset>
+    <fieldset>
+      <div id="diaocha" >
+        <div class="row mt-3 mb-3">
+          <div class="col-sm-4">
+           <label for="batman"><img  src="images/mmexport1497064504428.jpg"></label>
+           </div>
+           
+          <div class="col-sm-4">
+            <label for="wonderwoman"><img  src="images/mmexport1497064509725.jpg"></label>
+           </div>
+           
+          <div class="col-sm-4">
+            <label for="superman"><img src="images/mmexport1497064499194.jpg"></label>
+           </div>
+           
+          </div>
+           
+        <div class="row mt-3 mb-3">
+           <div class="col-sm-4">
+              <input type="checkbox" id="batman"/>
+            <label for="batman">蝙蝠侠</label>
+			</div>
+          
+           <div class="col-sm-4">
+               <input type="checkbox" id="wonderwoman"/>
+            <label for="wonderwoman">神奇女侠</label>
+			</div>
+          
+           <div class="col-sm-4">
+            <input type="checkbox" id="superman"/>
+            <label for="superman">超人</label>
+			</div>	
+			</div>
+			
+        <div class="row mt-3 mb-3">
+          <div class="col-sm-4">
+            <label for="flash"><img  src="images/mmexport1497064525609.jpg"></label>
+           </div>
+           <div class="col-sm-4">
+            <label for="aquaman"><img src="images/mmexport1497064515424.jpg"></label>
+           </div>
+           <div class="col-sm-4">
+            <label for="cyborg"><img src="images/mmexport1497064521085.jpg"></label>
+           </div>
+           </div>
+           
+        <div class="row mt-3 mb-3">
+           <div class="col-sm-4">
+      		<input type="checkbox" id="flash"/>
+            <label for="flash">闪电侠</label>
+			</div>
+           <div class="col-sm-4">
+             <input type="checkbox" id="aquaman"/>
+            <label for="aquman">海王</label>
+			</div>
+           <div class="col-sm-4">
+            <input type="checkbox" id="cyborg"/>
+            <label for="cyborg">钢骨</label>
+			</div>	
+			</div>
+         
+      </div>
+      <p><span id="errorMessage"></span></p>
+      <p>
+        <label for="yesno">你是否同意注册？</label>
+        <input id="yesno" type="checkbox"/>
+      </p>
+      <p>
+        <input type="submit"  name="submitBtn" id="submitBtn" value="注册"/>
+      </p>
+    </fieldset>
+  </from>
+</div>
+
+<footer class="row text-center">
+		<br>
+		<p class="col">孙中太，&copy;版权所有 TEL:15563831078</p>
+	</footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
